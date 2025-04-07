@@ -123,9 +123,16 @@ section .description{
     color: var(--dark-gray);
 }
 
+section .btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 section .btn{
     display: block;
-    width: fit-content;
+    width: 140px;
     padding: 13px 18px;
     background-color: var(--main-color);
     color: var(--white);
